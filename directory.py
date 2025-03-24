@@ -93,7 +93,6 @@ class Directory:
             if command == "DELETE":
                 if len(line_list) > 1:
                     self.delete(line_list[1], output_lines)
-        print(output_lines)
         output_file = "output.txt"
         if len(sys.argv) > 2:
             output_file = sys.argv[2]
